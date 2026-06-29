@@ -1,6 +1,6 @@
 terraform {
     backend "gcs"{
-        bucket = " tf-bucket-with-terraform-vscode-github-jenkins"
+        bucket = " tf_backend_state_gcp"
         prefix = "terraform/state"
     }
 }
