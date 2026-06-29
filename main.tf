@@ -9,7 +9,7 @@ resource "google_storage_bucket" "bucket" {
 #VPC
 resource "google_compute_network" "vpc" {
   name = var.vpc_name
-  auto_create_subnetworks = false
+  auto_create_subnetworks = false 
 }
 
 #Subnet
